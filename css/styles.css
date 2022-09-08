@@ -1,3 +1,18 @@
-body {
-  background-color: black;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.col {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: none;
+  clear: both;
+
 }
